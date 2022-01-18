@@ -1,0 +1,65 @@
+h1.redesSociais {
+    display: none;
+  }
+  
+  ul.redesSociais {
+    padding-left: 1;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    left: 45%;
+    top: 35%;
+    margin-left: -10px;
+  }
+  
+  ul.redesSociais li {
+    list-style-position: inside;
+    display: block;
+    position: fixed;
+    right: 50%; 
+    transition: all 900ms;
+    
+  }
+  ul.redesSociais li.twitter{
+    transform: scale(0.5);
+    margin-right: -10px;
+    z-index:0;
+  }
+  ul.redesSociais li.instagram {
+    transform: scale(0.5);
+    margin-right: -30px;
+    z-index:1;
+  }
+  ul.redesSociais li.whatsapp  {
+    transform: scale(0.5);
+    margin-right: -50px;
+    z-index:2;
+  }
+  ul.redesSociais li.facebook {
+    transform: scale(0.5);
+    margin-right: -70px;
+    z-index:1;
+  }
+  ul.redesSociais li.linkerdin {
+    transform: scale(0.5);
+    margin-right: -90px;
+    z-index:0;
+  }
+  
+  ul.redesSociais:hover li.twitter {
+    margin-right: 190px;
+  }
+  ul.redesSociais:hover li.instagram {
+    margin-right: 70px;
+  }
+  ul.redesSociais:hover li.whatsapp {
+    margin-right: -50px;
+  }
+  ul.redesSociais:hover li.facebook {
+    margin-right: -170px;
+  }
+  ul.redesSociais:hover li.linkerdin {
+     margin-right: -290px;
+  }
+  
+  
